@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- * tiles_es.xml * Copyright (C) 2017 Universidad de Sevilla * Author 
+	(A) 2012 Rafael Corchuelo (corchu@us.es) * * The use of this project is hereby 
+	constrained to the conditions of the * TDG Licence, a copy of which you may 
+	download from * http://www.tdg-seville.info/License.html -->
+
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+
+<tiles-definitions>
+		<definition name="examclass/administrator/list" extends="master.page">
+		<put-attribute name="title" value="Lista de examclass " />
+		<put-attribute name="body"
+			value="/views/examclass/list.jsp" />
+	</definition>
+
+	<definition name="examclass/administrator/create" extends="master.page">
+		<put-attribute name="title" value="Crear examclass" />
+		<put-attribute name="body"
+			value="/views/examclass/edit.jsp" />
+	</definition>
+
+	<definition name="examclass/administrator/edit" extends="master.page">
+		<put-attribute name="title" value="Editar examclass" />
+		<put-attribute name="body"
+			value="/views/examclass/edit.jsp" />
+	</definition>
+
+	<definition name="examclass/administrator/display" extends="master.page">
+		<put-attribute name="title" value="Ver examclass" />
+		<put-attribute name="body"
+			value="/views/examclass/edit.jsp" />
+	</definition>
+<definition name="examclass/display" extends="master.page">
+		<put-attribute name="title" value="Ver examclass" />
+		<put-attribute name="body"
+			value="/views/examclass/edit.jsp" />
+	</definition>
+
+</tiles-definitions>
